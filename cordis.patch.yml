@@ -1,0 +1,6 @@
+# The Host half: one Cordis service that the browser half calls over the
+# Typert Remote source fallback. The `dsh.client` block in package.json loads
+# the matching browser half.
+- insert:
+    - id: session-delete
+      name: dsh-session-delete
